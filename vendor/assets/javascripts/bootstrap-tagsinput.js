@@ -297,6 +297,7 @@
                .then(processItems);
             }
           },
+          minLength: 5,
           updater: function (text) {
             self.add(this.map[text]);
           },
